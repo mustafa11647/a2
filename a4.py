@@ -1,0 +1,14 @@
+def myfunction(n):
+    # First loop
+    for i in range(0, n + 1):
+        print("First Loop")
+
+    j = 1
+    # Second loop (exponentially increasing)
+    while j <= n + 1:
+        print("Second Loop", j)
+        j = j * 2
+    
+    # Third loop
+    for i in range(0, 100):
+        print("Third loop")
